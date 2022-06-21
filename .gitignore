@@ -1,0 +1,15 @@
+# Repository specifics and image outputs
+cell_parameters.*
+*.png
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
