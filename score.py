@@ -23,7 +23,7 @@ json_resp = None
 while not json_resp and retries < 5:
     response = requests.post('https://intel.ingress.com/r/getRegionScoreDetails', headers=headers, data=data)
     json_resp = response.json()['result']
-    print(json_resp)
+    #print(json_resp) # -> print output
     region_name = json_resp['regionName']
     retries += 1
 try:
